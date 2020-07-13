@@ -33,7 +33,7 @@ var APP_DATA = {
           "yaw": 2.509706000429449,
           "pitch": 0.17757394504971735,
           "rotation": 5.497787143782138,
-          "target": "1-2-tischtennisarea"
+          "target": "1-2-sitztreppe"
         }
       ],
       "infoHotspots": [
@@ -46,8 +46,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "1-2-tischtennisarea",
-      "name": "2. Tischtennisarea",
+      "id": "1-2-sitztreppe",
+      "name": "2. Sitztreppe",
       "levels": [
         {
           "tileSize": 256,
@@ -87,7 +87,20 @@ var APP_DATA = {
           "target": "0-1-ansicht"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.176013487339329,
+          "pitch": -0.489542965783075,
+          "title": "Fassade",
+          "text": "Es handelt sich um eine grüne Fassade, Efeuranken wachsen vom Gründach nach unten. Dadurch wird das Lernklima im inneren freundlicher."
+        },
+        {
+          "yaw": 2.3769287545424422,
+          "pitch": 0.1298356279220112,
+          "title": "Sitztreppen",
+          "text": "Sitztreppen laden zum verweilen vor und nach der Schule sowie zur Pause ein."
+        }
+      ]
     },
     {
       "id": "2-3-foyer",
@@ -128,7 +141,7 @@ var APP_DATA = {
           "yaw": 0.11396032270658019,
           "pitch": 0.06882367410753076,
           "rotation": 0.7853981633974483,
-          "target": "1-2-tischtennisarea"
+          "target": "1-2-sitztreppe"
         },
         {
           "yaw": 2.382933099249202,
@@ -181,7 +194,14 @@ var APP_DATA = {
           "target": "2-3-foyer"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.6678781541997694,
+          "pitch": 0.4059580675089407,
+          "title": "Ideenskizze",
+          "text": "Die erste Skizze erklärt den Grundlegenden Aufbau des Gebäudes:<div>Um eine Halle herum windet sich eine Rampe nach oben, die Besprechungsräume, und Lernkapseln sind wie Inseln im inneren Eingestellt die Klassenzonen sind außen plaziert.</div>"
+        }
+      ]
     },
     {
       "id": "4-4-erschlieung",
@@ -269,7 +289,20 @@ var APP_DATA = {
           "target": "4-4-erschlieung"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.9282604097963043,
+          "pitch": -0.2123333655662769,
+          "title": "Grundrisse",
+          "text": "Die Grundrisse der beiden Geschosse zeigen noch einmal das Konzept"
+        },
+        {
+          "yaw": 2.4665011010776645,
+          "pitch": 0.5866907574503504,
+          "title": "Mehrzweckraum",
+          "text": "Text"
+        }
+      ]
     },
     {
       "id": "6-5-erschlieung",
