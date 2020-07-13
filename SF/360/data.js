@@ -36,7 +36,14 @@ var APP_DATA = {
           "target": "1-tischtennisarea"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.9177086955701341,
+          "pitch": -0.18275453066032554,
+          "title": "Video",
+          "text": "Text"
+        }
+      ]
     },
     {
       "id": "1-tischtennisarea",
@@ -486,8 +493,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.73844136594271,
-          "pitch": 0.06627345091840553,
+          "yaw": 2.6701826254158885,
+          "pitch": 0.03162516227619605,
           "rotation": 5.497787143782138,
           "target": "10-dachgarten"
         },
@@ -818,6 +825,12 @@ var APP_DATA = {
           "pitch": 0.09995075742375548,
           "rotation": 0.7853981633974483,
           "target": "2-foyer"
+        },
+        {
+          "yaw": 2.0355613128069647,
+          "pitch": -0.48253285169600346,
+          "rotation": 0.7853981633974483,
+          "target": "12-lehrerzimmer-og"
         }
       ],
       "infoHotspots": []
@@ -932,6 +945,12 @@ var APP_DATA = {
           "pitch": -0.5526607196741438,
           "rotation": 0.7853981633974483,
           "target": "16-thinktank-und-besprecher-2"
+        },
+        {
+          "yaw": 2.2718422991528797,
+          "pitch": 0.11887031879484766,
+          "rotation": 4.71238898038469,
+          "target": "6-erschlieung-3"
         }
       ],
       "infoHotspots": []
