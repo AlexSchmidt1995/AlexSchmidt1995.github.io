@@ -1072,7 +1072,7 @@ var APP_DATA = {
           "yaw": 0.42848406060454103,
           "pitch": 0.4866539360939601,
           "rotation": 0,
-          "target": "22-81-vr-kapsel"
+          "target": "22-91-vr-kapsel"
         },
         {
           "yaw": 1.1864210953373249,
@@ -1091,8 +1091,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "22-81-vr-kapsel",
-      "name": "8.1 VR-Kapsel",
+      "id": "22-91-vr-kapsel",
+      "name": "9.1 VR-Kapsel",
       "levels": [
         {
           "tileSize": 256,
