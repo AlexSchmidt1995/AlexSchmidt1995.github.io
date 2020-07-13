@@ -38,8 +38,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 0.7224381051954012,
-          "pitch": -0.23668219371902488,
+          "yaw": 2.0982958059383927,
+          "pitch": 0.2806718326262647,
           "title": "Twisted Thoughts",
           "text": "<p class=\"MsoNormal\"><span style=\"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif\">Lange\nFlure, enge Räume, verstaubte Lehrmethoden. Alles dreht sich immer schneller\naber Kinder lernen noch immer wie ihre Großmütter. Twisted Thoughts denkt\nSchule neu, die Schüler fördern statt fordern, ihre Talente frühzeitig erkennen\nund sie auf ihrem Lernweg begleiten. Welche Rolle wird der Digitale Raum dabei\nin Zukunft einnehmen? Wie sieht er aus? Wie wird er betreten? Die Schule überwindet\nalte Muster, sie windet sich als fliesender Lernraum nach oben und verbindet was\nzusammen gehört.<o:p></o:p></span></p>"
         }
@@ -480,15 +480,15 @@ var APP_DATA = {
           "target": "12-63-multifunktionsflche"
         },
         {
-          "yaw": -2.204634868692782,
-          "pitch": 0.0847825032389089,
-          "rotation": 5.497787143782138,
+          "yaw": -2.200165129677689,
+          "pitch": 0.07530359354636573,
+          "rotation": 23.561944901923464,
           "target": "11-62-lehrerzimmer"
         },
         {
-          "yaw": -0.43465751950250286,
-          "pitch": 0.15764613673562167,
-          "rotation": 0.7853981633974483,
+          "yaw": -0.7144750804965501,
+          "pitch": 0.1693382543665667,
+          "rotation": 5.497787143782138,
           "target": "10-61-besprechungsraumisometrien"
         },
         {
@@ -588,8 +588,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 1.3763531018609,
-          "pitch": -0.1660374751074194,
+          "yaw": 1.4515574223173493,
+          "pitch": -0.1820107437140308,
           "title": "Lernraumkonzept",
           "text": "<p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:.0001pt;line-height:\nnormal\"><span style=\"font-size: 10pt; font-family: Helvetica, sans-serif;\">Unser Motto:</span></p><p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:.0001pt;line-height:\nnormal\"><span style=\"font-size: 10pt; font-family: Helvetica, sans-serif;\">Individuell lernen - gemeinsam wachsen <o:p></o:p></span></p>\n\n<p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:.0001pt;line-height:\nnormal\"><span style=\"font-size: 10pt; font-family: Helvetica, sans-serif;\">Die Pädagogik der Schule geht auf die\nUnterschiedlichkeit der Kinder und Jugendlichen ein und stimmt ihre\nLernangebote individuell auf die verschiedenen Begabungen, Fähigkeiten und Entwicklungen\ndes Einzelnen ab.&nbsp;<o:p></o:p></span></p>"
         }
@@ -821,8 +821,8 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.879336588074123,
-        "pitch": 0.07371502057320711,
+        "yaw": 1.6375309059694452,
+        "pitch": 0.05742000559017235,
         "fov": 1.3687812585745385
       },
       "linkHotspots": [
@@ -991,7 +991,7 @@ var APP_DATA = {
           "yaw": -2.7721829287481583,
           "pitch": 0.5358343869159512,
           "title": "Lernkapsel",
-          "text": "<span style=\"font-size: 10pt; font-family: Helvetica, sans-serif;\">Die Lernkapseln fungieren als Konzentrationsorte hier können die SchülerInnen nach ihrer persönlichen&nbsp;</span>Lernmethode arbeiten oder auch zurückziehen."
+          "text": "<p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:.0001pt;line-height:\nnormal\"><span style=\"font-size: 10pt; font-family: Helvetica, sans-serif;\">&nbsp;</span><span style=\"font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; font-size: 10pt; font-family: Helvetica, sans-serif;\">Die Lernkapseln fungieren als\nKonzentrationsorte hier können die SchülerInnen nach ihrer persönlichen&nbsp;</span><span style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;\">Lernmethode\narbeiten oder auch zurückziehen.</span></p><p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:.0001pt;line-height:\nnormal\"><o:p></o:p></p>"
         }
       ]
     },
