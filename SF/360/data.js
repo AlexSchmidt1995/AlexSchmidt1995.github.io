@@ -223,6 +223,12 @@ var APP_DATA = {
           "pitch": 0.10724972347904682,
           "rotation": 0,
           "target": "2-3-foyer"
+        },
+        {
+          "yaw": -1.169451359465608,
+          "pitch": 0.1266755640322188,
+          "rotation": 5.497787143782138,
+          "target": "5-41-kommunikationsraum"
         }
       ],
       "infoHotspots": []
@@ -251,9 +257,9 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.2619842974799909,
-        "pitch": 0.19146082898967265,
-        "fov": 0.9230512111183763
+        "yaw": 2.4566804634576194,
+        "pitch": 0.1980890562166877,
+        "fov": 1.2809123973965084
       },
       "linkHotspots": [
         {
@@ -339,20 +345,20 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.9572605994260472,
-        "pitch": 0.17480805845217162,
+        "yaw": 2.0107965651940285,
+        "pitch": 0.15453732318843905,
         "fov": 1.2809123973965084
       },
       "linkHotspots": [
         {
-          "yaw": 1.5175380889337227,
-          "pitch": 0.5455444280466715,
+          "yaw": 1.7468449547464147,
+          "pitch": 0.6343079660298194,
           "rotation": 0,
           "target": "8-52-ar"
         },
         {
-          "yaw": -1.3804870615167033,
-          "pitch": 0.18324681036009238,
+          "yaw": -1.5355859652270922,
+          "pitch": 0.2429876392735899,
           "rotation": 0.7853981633974483,
           "target": "6-5-erschlieung"
         }
@@ -383,20 +389,20 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.9829050921278855,
-        "pitch": 0.16500855636608414,
+        "yaw": 2.064118982715743,
+        "pitch": 0.13427285649224885,
         "fov": 1.2809123973965084
       },
       "linkHotspots": [
         {
-          "yaw": 1.6068557590063053,
-          "pitch": 0.6020788611886445,
+          "yaw": 1.7039984194425246,
+          "pitch": 0.6173723060164118,
           "rotation": 3.141592653589793,
           "target": "7-51-kommunikationsraum"
         },
         {
-          "yaw": -1.3829475160136333,
-          "pitch": 0.18031634575571331,
+          "yaw": -1.4668791539918242,
+          "pitch": 0.2564972104537073,
           "rotation": 0.7853981633974483,
           "target": "6-5-erschlieung"
         }
@@ -448,7 +454,7 @@ var APP_DATA = {
           "yaw": -0.43465751950250286,
           "pitch": 0.15764613673562167,
           "rotation": 0.7853981633974483,
-          "target": "10-61-kommunikationsraum"
+          "target": "10-61-meeting-explosion"
         },
         {
           "yaw": 2.104524624781213,
@@ -466,8 +472,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "10-61-kommunikationsraum",
-      "name": "6.1 Kommunikationsraum",
+      "id": "10-61-meeting-explosion",
+      "name": "6.1 Meeting (Explosion)",
       "levels": [
         {
           "tileSize": 256,
@@ -489,15 +495,15 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.3334154745559914,
-        "pitch": 0.25356567604038105,
-        "fov": 1.016420995686486
+        "yaw": 1.5654909973002296,
+        "pitch": 0.2356108613920469,
+        "fov": 1.2809123973965084
       },
       "linkHotspots": [
         {
-          "yaw": -0.05707877542249484,
-          "pitch": 0.14307903821643464,
-          "rotation": 0.7853981633974483,
+          "yaw": 0.04579914211085878,
+          "pitch": 0.17332017067335315,
+          "rotation": 1.5707963267948966,
           "target": "9-6-erschlieung"
         }
       ],
@@ -806,6 +812,12 @@ var APP_DATA = {
           "pitch": 0.10856395353898307,
           "rotation": 0,
           "target": "17-72-auditives-lernen"
+        },
+        {
+          "yaw": 1.2830110806322743,
+          "pitch": 0.10011231860198677,
+          "rotation": 1.5707963267948966,
+          "target": "15-7-erschlieung"
         }
       ],
       "infoHotspots": []
@@ -840,8 +852,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.3773330128920653,
-          "pitch": 0.3538989073479559,
+          "yaw": 2.425801691787804,
+          "pitch": -0.23910660715574394,
           "rotation": 0.7853981633974483,
           "target": "16-71-konzentrationskapsel"
         }
@@ -888,6 +900,12 @@ var APP_DATA = {
           "pitch": 0.16446723732321544,
           "rotation": 2.356194490192345,
           "target": "15-7-erschlieung"
+        },
+        {
+          "yaw": 2.9862225003575382,
+          "pitch": 0.114972562227452,
+          "rotation": 2.356194490192345,
+          "target": "16-71-konzentrationskapsel"
         }
       ],
       "infoHotspots": []
@@ -1060,8 +1078,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.729924327716299,
-          "pitch": 0.17580885420837689,
+          "yaw": 1.7710146553894948,
+          "pitch": 0.009016887728709122,
           "rotation": 0.7853981633974483,
           "target": "21-9-erschlieung"
         }
@@ -1098,8 +1116,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.075786010614191,
-          "pitch": 0.07824148213190618,
+          "yaw": 2.765250878072126,
+          "pitch": 0.028684100939551982,
           "rotation": 5.497787143782138,
           "target": "24-11-dachgarten"
         },
@@ -1136,22 +1154,22 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 2.719406494389993,
-        "pitch": 0.19620024963206895,
+        "yaw": 2.2977463883242493,
+        "pitch": 0.2651650906047607,
         "fov": 1.2809123973965084
       },
       "linkHotspots": [
         {
-          "yaw": 1.6617783541264917,
-          "pitch": -0.35407298148737887,
-          "rotation": 3.141592653589793,
-          "target": "0-1-ansicht"
+          "yaw": 1.3036122949281967,
+          "pitch": 0.07366370347614826,
+          "rotation": 0.7853981633974483,
+          "target": "23-10-erschlieung"
         },
         {
-          "yaw": 1.1583677121045408,
-          "pitch": 0.08102680645505878,
+          "yaw": 1.863226460956537,
+          "pitch": -0.20119896897172396,
           "rotation": 0,
-          "target": "23-10-erschlieung"
+          "target": "0-1-ansicht"
         }
       ],
       "infoHotspots": []
