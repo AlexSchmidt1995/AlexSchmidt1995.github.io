@@ -896,7 +896,7 @@ var APP_DATA = {
           "yaw": 1.1025408477883332,
           "pitch": 0.026065620348408203,
           "title": "Erlköig auf Japansich",
-              "text":"<audio controls><source src= audio /erlkönigaufjapanisch.mp3 type= audio/mp3>Your browser does not support the audio element.</audio>”
+              "text":"<audio controls><source src='audio/erlkönigaufjapanisch.mp3' type='audio/mp3'></audio>”
         }
       ]
     },
