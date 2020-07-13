@@ -596,7 +596,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   position: absolute;
   width: 300px;
   height: auto;
-  max-height: 200px;
+  max-height: 300px;
   top: 40px;
   left: 0;
   padding: 10px;

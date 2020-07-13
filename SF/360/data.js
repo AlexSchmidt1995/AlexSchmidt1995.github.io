@@ -888,7 +888,7 @@ var APP_DATA = {
         {
           "yaw": 1.1025408477883332,
           "pitch": 0.026065620348408203,
-          "title": "Sounddatei",
+          "title": "Japanisch Lektion 43 (Erlkönig)",
               "text": "<audio controls><source src= audio/erlkönig.mp3 type=audio/mp3>Your browser does not support the audio element.</audio>"
         }
       ]
