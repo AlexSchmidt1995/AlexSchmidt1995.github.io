@@ -297,10 +297,10 @@ var APP_DATA = {
           "text": "Die Grundrisse der beiden Geschosse zeigen noch einmal das Konzept"
         },
         {
-          "yaw": 2.4665011010776645,
-          "pitch": 0.5866907574503504,
+          "yaw": 2.4664387182003313,
+          "pitch": 0.5612062913906222,
           "title": "Mehrzweckraum",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -891,7 +891,14 @@ var APP_DATA = {
           "target": "16-71-konzentrationskapsel"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 1.1025408477883332,
+          "pitch": 0.026065620348408203,
+          "title": "Erlköig auf Japansich",
+              "text": "<audio controls><source src= audio ErlkönigaufJapanisch.mp3 type=audio/mp3>Your browser does not support the audio element.</audio>"
+        }
+      ]
     },
     {
       "id": "18-73-kommunikationsraum",
