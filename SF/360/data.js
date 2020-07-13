@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-ansicht",
-      "name": "Ansicht",
+      "id": "0-1-ansicht",
+      "name": "1. Ansicht",
       "levels": [
         {
           "tileSize": 256,
@@ -24,30 +24,30 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.5740190943932024,
-        "pitch": 0.06152304845571166,
+        "yaw": 1.635551420834667,
+        "pitch": 0.05925459732890204,
         "fov": 1.3687812585745385
       },
       "linkHotspots": [
         {
-          "yaw": 2.578630362742236,
-          "pitch": 0.239587379986121,
+          "yaw": 2.509706000429449,
+          "pitch": 0.17757394504971735,
           "rotation": 5.497787143782138,
-          "target": "1-tischtennisarea"
+          "target": "1-2-tischtennisarea"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.9177086955701341,
-          "pitch": -0.18275453066032554,
-          "title": "Video",
-          "text": "Text"
+          "yaw": 0.7224381051954012,
+          "pitch": -0.23668219371902488,
+          "title": "Twisted Thoughts",
+          "text": "<p class=\"MsoNormal\"><span style=\"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif\">Lange\nFlure, enge Räume, verstaubte Lehrmethoden. Alles dreht sich immer schneller\naber Kinder lernen noch immer wie ihre Großmütter. Twisted Thoughts denkt\nSchule neu, die Schüler fördern statt fordern, ihre Talente frühzeitig erkennen\nund sie auf ihrem Lernweg begleiten. Welche Rolle wird der Digitale Raum dabei\nin Zukunft einnehmen? Wie sieht er aus? Wie wird er betreten? Die Schule überwindet\nalte Muster sie windet sich als fliesender Lernraum nach oben und verbindet was\nzusammen gehört.<o:p></o:p></span></p>"
         }
       ]
     },
     {
-      "id": "1-tischtennisarea",
-      "name": "Tischtennisarea",
+      "id": "1-2-tischtennisarea",
+      "name": "2. Tischtennisarea",
       "levels": [
         {
           "tileSize": 256,
@@ -69,29 +69,29 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.7104987189519898,
-        "pitch": -0.2610668800257976,
+        "yaw": 1.9238536846526735,
+        "pitch": -0.2049221490957862,
         "fov": 1.3687812585745385
       },
       "linkHotspots": [
         {
-          "yaw": 1.8384200192436317,
-          "pitch": -0.07607749634280125,
+          "yaw": 2.040438376097714,
+          "pitch": -0.07264084402817517,
           "rotation": 4.71238898038469,
-          "target": "2-foyer"
+          "target": "2-3-foyer"
         },
         {
-          "yaw": -0.3042324445104363,
-          "pitch": -0.1506602238352741,
+          "yaw": -0.12011162029802414,
+          "pitch": -0.1711967836871402,
           "rotation": 0.7853981633974483,
-          "target": "0-ansicht"
+          "target": "0-1-ansicht"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-foyer",
-      "name": "Foyer",
+      "id": "2-3-foyer",
+      "name": "3. Foyer",
       "levels": [
         {
           "tileSize": 256,
@@ -113,888 +113,1045 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.5992914982560293,
-        "pitch": -0.15554331798836785,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.543951538241112,
-          "pitch": 0.05299109413852676,
-          "rotation": 5.497787143782138,
-          "target": "3-klassenverbund"
-        },
-        {
-          "yaw": 1.8948411685347706,
-          "pitch": 0.038302404179356486,
-          "rotation": 0,
-          "target": "4-erschlieung-1"
-        },
-        {
-          "yaw": 0.8528085380250232,
-          "pitch": 0.07414828509990201,
-          "rotation": 5.497787143782138,
-          "target": "17-lehrerzimmer-eg"
-        },
-        {
-          "yaw": -0.20715635219271888,
-          "pitch": 0.12638029371449377,
-          "rotation": 0.7853981633974483,
-          "target": "1-tischtennisarea"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-klassenverbund",
-      "name": "Klassenverbund",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.6332723666102655,
-        "pitch": -0.0000066708639128165714,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.18515229888895846,
-          "pitch": 0.06814780887985705,
-          "rotation": 0.7853981633974483,
-          "target": "2-foyer"
-        },
-        {
-          "yaw": 1.2798759075434933,
-          "pitch": 0.16170135391056917,
-          "rotation": 1.5707963267948966,
-          "target": "19-meeting-zusammenfassung"
-        },
-        {
-          "yaw": -2.211239795907087,
-          "pitch": 0.36559597623690365,
-          "rotation": 0.7853981633974483,
-          "target": "21-arbeitsblatt"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-erschlieung-1",
-      "name": "Erschließung 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.5870308821339627,
+        "yaw": 1.5600732288213175,
         "pitch": -0.034565181775192855,
         "fov": 1.3687812585745385
       },
       "linkHotspots": [
         {
-          "yaw": 2.182754490256909,
-          "pitch": -0.03289738175238455,
-          "rotation": 10.995574287564278,
-          "target": "5-erschlieung-2"
-        },
-        {
-          "yaw": 0.13814643289901873,
-          "pitch": 0.09558552146969035,
-          "rotation": 5.497787143782138,
-          "target": "2-foyer"
-        },
-        {
-          "yaw": -0.4965903160727745,
-          "pitch": 0.10434788126471162,
-          "rotation": 5.497787143782138,
-          "target": "19-meeting-zusammenfassung"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-erschlieung-2",
-      "name": "Erschließung 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.6580627893946076,
-        "pitch": -0.046909889552047446,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.270410333595315,
-          "pitch": -0.005808404770053954,
-          "rotation": 5.497787143782138,
-          "target": "6-erschlieung-3"
-        },
-        {
-          "yaw": -0.9086950651501731,
-          "pitch": 0.1984142952025465,
-          "rotation": 0.7853981633974483,
-          "target": "11-meeting-research-1"
-        },
-        {
-          "yaw": 0.8747405788712115,
-          "pitch": 0.15550059763411106,
-          "rotation": 1.5707963267948966,
-          "target": "4-erschlieung-1"
-        },
-        {
-          "yaw": -0.24786067652385668,
-          "pitch": 0.17493215606113388,
-          "rotation": 0,
-          "target": "18-meeting-research-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-erschlieung-3",
-      "name": "Erschließung 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.6051073994695209,
-        "pitch": -0.05184777266278928,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.1823779951753153,
-          "pitch": 0.04862522106262013,
-          "rotation": 5.497787143782138,
-          "target": "7-erschlieung-4"
-        },
-        {
-          "yaw": -2.184225075638002,
-          "pitch": 0.16468299319567237,
-          "rotation": 0,
-          "target": "12-lehrerzimmer-og"
-        },
-        {
-          "yaw": 0.9949387305285562,
-          "pitch": 0.14477154335520837,
-          "rotation": 7.853981633974483,
-          "target": "5-erschlieung-2"
-        },
-        {
-          "yaw": -0.6915337764741967,
-          "pitch": 0.1469403697716576,
-          "rotation": 2.356194490192345,
-          "target": "20-meeting-explosion"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-erschlieung-4",
-      "name": "Erschließung 4",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.6171009804192416,
-        "pitch": -0.07161088755113276,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.1081814948723325,
-          "pitch": -0.0009103929399003619,
-          "rotation": 5.497787143782138,
-          "target": "8-erschlieung-5"
-        },
-        {
-          "yaw": -0.006835286913201344,
-          "pitch": 0.11268969225496583,
-          "rotation": 5.497787143782138,
-          "target": "13-multifunktionsraum"
-        },
-        {
-          "yaw": -2.7746087597733684,
-          "pitch": 0.09302595328561125,
-          "rotation": 0.7853981633974483,
-          "target": "14-thinktank"
-        },
-        {
-          "yaw": 1.2554871261789202,
-          "pitch": 0.12595257022733364,
-          "rotation": 7.853981633974483,
-          "target": "6-erschlieung-3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "8-erschlieung-5",
-      "name": "Erschließung 5",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.0436356547639498,
-        "pitch": 0.2740525126461719,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.5059036374561643,
-          "pitch": -0.04973554193162322,
-          "rotation": 10.995574287564278,
-          "target": "9-erschlieung-6"
-        },
-        {
-          "yaw": -0.9111564252636732,
-          "pitch": 0.07350890459719928,
-          "rotation": 5.497787143782138,
-          "target": "15-thinktank-und-besprecher"
-        },
-        {
-          "yaw": 0.35898909215492125,
-          "pitch": 0.17005710499057258,
-          "rotation": 1.5707963267948966,
-          "target": "7-erschlieung-4"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-erschlieung-6",
-      "name": "Erschließung 6",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.6028868889356165,
-        "pitch": 0.22708709475584854,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.6701826254158885,
-          "pitch": 0.03162516227619605,
-          "rotation": 5.497787143782138,
-          "target": "10-dachgarten"
-        },
-        {
-          "yaw": 0.13148195296520626,
-          "pitch": 0.08919935200211526,
-          "rotation": 4.71238898038469,
-          "target": "16-thinktank-und-besprecher-2"
-        },
-        {
-          "yaw": 1.2231193314806905,
-          "pitch": 0.15098566240117428,
-          "rotation": 1.5707963267948966,
-          "target": "8-erschlieung-5"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "10-dachgarten",
-      "name": "Dachgarten",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.5475682235248946,
-        "pitch": 0.016002631754727048,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.1184596815443193,
-          "pitch": 0.12662524739965164,
+          "yaw": 2.0042421780283597,
+          "pitch": 0.056302147781144285,
           "rotation": 6.283185307179586,
-          "target": "9-erschlieung-6"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-meeting-research-1",
-      "name": "Meeting (Research 1)",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "target": "4-4-erschlieung"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.7202060225870621,
-        "pitch": 0.30807363905029916,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.430352469977194,
-          "pitch": 0.17201729398073518,
+          "yaw": 0.11396032270658019,
+          "pitch": 0.06882367410753076,
           "rotation": 0.7853981633974483,
-          "target": "5-erschlieung-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "12-lehrerzimmer-og",
-      "name": "Lehrerzimmer OG",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "target": "1-2-tischtennisarea"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.629914281477192,
-        "pitch": -0.08888189599335306,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.056535734373723,
-          "pitch": 0.23207663331323225,
-          "rotation": 11.780972450961727,
-          "target": "6-erschlieung-3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-multifunktionsraum",
-      "name": "Multifunktionsraum",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -1.2357928452384321,
-        "pitch": 0.24716562428651478,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.5749603736755304,
-          "pitch": 0.07832181015168871,
+          "yaw": 2.382933099249202,
+          "pitch": 0.024682102716248266,
           "rotation": 0.7853981633974483,
-          "target": "7-erschlieung-4"
+          "target": "5-41-kommunikationsraum"
         },
         {
-          "yaw": 1.891007295016724,
-          "pitch": 0.03513964757415167,
+          "yaw": 3.0875204595034997,
+          "pitch": 0.06230327445024031,
+          "rotation": 0.7853981633974483,
+          "target": "3-31-ideenskizze"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-31-ideenskizze",
+      "name": "3.1 Ideenskizze",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.6517068720188712,
+        "pitch": 0.9355773647674024,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.4937438793387408,
+          "pitch": 0.28061756857753295,
+          "rotation": 0.7853981633974483,
+          "target": "2-3-foyer"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-4-erschlieung",
+      "name": "4. Erschließung",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.6350971504212684,
+        "pitch": 0.017352231182643507,
+        "fov": 1.3687812585745385
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.2988649409376958,
+          "pitch": -0.013558905967169466,
           "rotation": 5.497787143782138,
-          "target": "14-thinktank"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "14-thinktank",
-      "name": "ThinkTank",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "target": "6-5-erschlieung"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -0.05669998189314818,
-        "pitch": -0.019751532442967346,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.42754673592362913,
-          "pitch": 0.08853771589052428,
-          "rotation": 5.497787143782138,
-          "target": "7-erschlieung-4"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-thinktank-und-besprecher",
-      "name": "ThinkTank und Besprecher",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0.6678555811202784,
-        "pitch": 0.2863972204230265,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.1209515037835018,
-          "pitch": 0.08573980288447913,
-          "rotation": 0.7853981633974483,
-          "target": "8-erschlieung-5"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "16-thinktank-und-besprecher-2",
-      "name": "ThinkTank und Besprecher 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.538278840489034,
-        "pitch": 0.44229085360951004,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.613566476731486,
-          "pitch": 0.10893671587962572,
-          "rotation": 0.7853981633974483,
-          "target": "9-erschlieung-6"
-        },
-        {
-          "yaw": 1.5807173536226777,
-          "pitch": 0.7987715834376328,
-          "rotation": 0.7853981633974483,
-          "target": "20-meeting-explosion"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "17-lehrerzimmer-eg",
-      "name": "Lehrerzimmer EG",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.5569597891167746,
-        "pitch": -0.19343219970716596,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.7794937844138783,
-          "pitch": 0.09995075742375548,
-          "rotation": 0.7853981633974483,
-          "target": "2-foyer"
-        },
-        {
-          "yaw": 2.0355613128069647,
-          "pitch": -0.48253285169600346,
-          "rotation": 0.7853981633974483,
-          "target": "12-lehrerzimmer-og"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "18-meeting-research-2",
-      "name": "Meeting (Research 2)",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.7202320597493301,
-        "pitch": 0.3106821033983316,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.49652940221402275,
-          "pitch": 0.12884634953945273,
-          "rotation": 0.7853981633974483,
-          "target": "5-erschlieung-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "19-meeting-zusammenfassung",
-      "name": "Meeting (Zusammenfassung)",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.6295676179334873,
-        "pitch": 0.2049221490957862,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.32265877136892485,
-          "pitch": 0.09189258455722538,
-          "rotation": 0.7853981633974483,
-          "target": "4-erschlieung-1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "20-meeting-explosion",
-      "name": "Meeting (Explosion)",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.599291498256024,
-        "pitch": 0.150605434877626,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.3130626301747697,
-          "pitch": -0.5526607196741438,
-          "rotation": 0.7853981633974483,
-          "target": "16-thinktank-und-besprecher-2"
-        },
-        {
-          "yaw": 2.2718422991528797,
-          "pitch": 0.11887031879484766,
-          "rotation": 4.71238898038469,
-          "target": "6-erschlieung-3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "21-arbeitsblatt",
-      "name": "Arbeitsblatt",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.6517683563601722,
-        "pitch": 0.9252211775542065,
-        "fov": 1.3687812585745385
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.0347132102027725,
-          "pitch": -0.06976226926027351,
+          "yaw": -0.32181561596051367,
+          "pitch": 0.10724972347904682,
           "rotation": 0,
-          "target": "3-klassenverbund"
+          "target": "2-3-foyer"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-41-kommunikationsraum",
+      "name": "4.1 Kommunikationsraum",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 1.3029881771999392,
-          "pitch": 0.40326188157725085,
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.2619842974799909,
+        "pitch": 0.19146082898967265,
+        "fov": 0.9230512111183763
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.3585191688648752,
+          "pitch": 0.129277660352777,
+          "rotation": 0.7853981633974483,
+          "target": "4-4-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-5-erschlieung",
+      "name": "5. Erschließung",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -0.9889399405334665,
+        "pitch": -0.004655704806644678,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.597677953084382,
+          "pitch": 0.13021929655659648,
+          "rotation": 0.7853981633974483,
+          "target": "7-51-kommunikationsraum"
+        },
+        {
+          "yaw": 2.392864710644612,
+          "pitch": -0.010281648468399851,
+          "rotation": 5.497787143782138,
+          "target": "9-6-erschlieung"
+        },
+        {
+          "yaw": 0.8637596163589087,
+          "pitch": 0.2073386305653262,
+          "rotation": 1.5707963267948966,
+          "target": "4-4-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-51-kommunikationsraum",
+      "name": "5.1 Kommunikationsraum",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.9572605994260472,
+        "pitch": 0.17480805845217162,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5175380889337227,
+          "pitch": 0.5455444280466715,
+          "rotation": 0,
+          "target": "8-52-ar"
+        },
+        {
+          "yaw": -1.3804870615167033,
+          "pitch": 0.18324681036009238,
+          "rotation": 0.7853981633974483,
+          "target": "6-5-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-52-ar",
+      "name": "5.2 AR",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.9829050921278855,
+        "pitch": 0.16500855636608414,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6068557590063053,
+          "pitch": 0.6020788611886445,
           "rotation": 3.141592653589793,
-          "target": "3-klassenverbund"
+          "target": "7-51-kommunikationsraum"
+        },
+        {
+          "yaw": -1.3829475160136333,
+          "pitch": 0.18031634575571331,
+          "rotation": 0.7853981633974483,
+          "target": "6-5-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-6-erschlieung",
+      "name": "6. Erschließung",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -1.3994922935104608,
+        "pitch": 0.025050399671428636,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.8354939660641776,
+          "pitch": 0.028533761247841127,
+          "rotation": 1.5707963267948966,
+          "target": "12-63-multifunktionsraum"
+        },
+        {
+          "yaw": -2.204634868692782,
+          "pitch": 0.0847825032389089,
+          "rotation": 5.497787143782138,
+          "target": "11-62-lehrerzimmer"
+        },
+        {
+          "yaw": -0.43465751950250286,
+          "pitch": 0.15764613673562167,
+          "rotation": 0.7853981633974483,
+          "target": "10-61-kommunikationsraum"
+        },
+        {
+          "yaw": 2.104524624781213,
+          "pitch": -0.007572340499201857,
+          "rotation": 4.71238898038469,
+          "target": "15-7-erschlieung"
+        },
+        {
+          "yaw": 1.2676954160322484,
+          "pitch": 0.13238731141272453,
+          "rotation": 1.5707963267948966,
+          "target": "6-5-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-61-kommunikationsraum",
+      "name": "6.1 Kommunikationsraum",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.3334154745559914,
+        "pitch": 0.25356567604038105,
+        "fov": 1.016420995686486
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.05707877542249484,
+          "pitch": 0.14307903821643464,
+          "rotation": 0.7853981633974483,
+          "target": "9-6-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "11-62-lehrerzimmer",
+      "name": "6.2 Lehrerzimmer",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 2.1886527489600436,
+        "pitch": 0.12160560587976477,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.4664121376206367,
+          "pitch": 0.14085793641647726,
+          "rotation": 1.5707963267948966,
+          "target": "9-6-erschlieung"
+        },
+        {
+          "yaw": -0.5058953778531894,
+          "pitch": 0.04060579849581103,
+          "rotation": 2.356194490192345,
+          "target": "12-63-multifunktionsraum"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.2579555500635848,
+          "pitch": -0.15086651938260687,
+          "title": "Lernraumkonzept",
+          "text": "<div>\" Die Pädagogik unserer Gemeinschaftsschule geht auf</div><div>die Unterschiedlichkeit der Kinder und Jugendlichen ein</div><div>und stimmt ihre Lernangebote individuell auf die</div><div>verschiedenen Begabungen, Fähigkeiten und</div><div>Entwicklungen des Einzelnen ab. Unser motto:</div><div>Individuell lernen - gemeinsam wachsen\"</div>"
+        }
+      ]
+    },
+    {
+      "id": "12-63-multifunktionsraum",
+      "name": "6.3 Multifunktionsraum",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 0.9460140559036567,
+        "pitch": 0.13060202170825974,
+        "fov": 1.3687812585745385
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6967528490841062,
+          "pitch": 0.07718740300380489,
+          "rotation": 0.7853981633974483,
+          "target": "11-62-lehrerzimmer"
+        },
+        {
+          "yaw": 1.988224637247412,
+          "pitch": 0.06040234928305921,
+          "rotation": 5.497787143782138,
+          "target": "9-6-erschlieung"
+        },
+        {
+          "yaw": -2.852946462570049,
+          "pitch": 0.056495251446648354,
+          "rotation": 0,
+          "target": "13-64-multifunktionsraum"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-64-multifunktionsraum",
+      "name": "6.4 Multifunktionsraum",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -0.6100321975634984,
+        "pitch": 0.029626601243940343,
+        "fov": 1.3687812585745385
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.9446351198151977,
+          "pitch": 0.0551817271549524,
+          "rotation": 1.5707963267948966,
+          "target": "14-65-klassenverbund"
+        },
+        {
+          "yaw": -0.5200900724350692,
+          "pitch": 0.07801312158608908,
+          "rotation": 0,
+          "target": "12-63-multifunktionsraum"
+        },
+        {
+          "yaw": 1.0530283172638626,
+          "pitch": 0.06346141863580002,
+          "rotation": 0.7853981633974483,
+          "target": "15-7-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-65-klassenverbund",
+      "name": "6.5 Klassenverbund",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.4581612591265847,
+        "pitch": 0.09365872033870382,
+        "fov": 1.3687812585745385
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.750590754340042,
+          "pitch": 0.015349179303811411,
+          "rotation": 5.497787143782138,
+          "target": "16-71-konzentrationskapsel"
+        },
+        {
+          "yaw": 1.3821201007370405,
+          "pitch": 0.057834456149489455,
+          "rotation": 0.7853981633974483,
+          "target": "13-64-multifunktionsraum"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-7-erschlieung",
+      "name": "7. Erschließung",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -2.7485920221515467,
+        "pitch": -0.006744122990227197,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7636206798943448,
+          "pitch": -0.01607016436614117,
+          "rotation": 9.42477796076938,
+          "target": "16-71-konzentrationskapsel"
+        },
+        {
+          "yaw": 1.2573461471655119,
+          "pitch": 0.09612507174182738,
+          "rotation": 1.5707963267948966,
+          "target": "9-6-erschlieung"
+        },
+        {
+          "yaw": 0.13086429439024805,
+          "pitch": 0.07797750402163572,
+          "rotation": 5.497787143782138,
+          "target": "13-64-multifunktionsraum"
+        },
+        {
+          "yaw": 2.6128630789315563,
+          "pitch": 0.051781884651564525,
+          "rotation": 5.497787143782138,
+          "target": "19-8-erschlieung"
+        },
+        {
+          "yaw": -2.7721531769655847,
+          "pitch": -0.003797696450007493,
+          "rotation": 0.7853981633974483,
+          "target": "18-73-kommunikationsraum"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-71-konzentrationskapsel",
+      "name": "7.1 Konzentrationskapsel",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.879336588074123,
+        "pitch": 0.07371502057320711,
+        "fov": 1.3687812585745385
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.138401397206822,
+          "pitch": 0.031414796959756686,
+          "rotation": 2.356194490192345,
+          "target": "18-73-kommunikationsraum"
+        },
+        {
+          "yaw": -0.04058329593614829,
+          "pitch": 0.0852828925871929,
+          "rotation": 0.7853981633974483,
+          "target": "14-65-klassenverbund"
+        },
+        {
+          "yaw": 0.96620851158292,
+          "pitch": 0.10856395353898307,
+          "rotation": 0,
+          "target": "17-72-auditives-lernen"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-72-auditives-lernen",
+      "name": "7.2 Auditives Lernen",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.665206803535181,
+        "pitch": 0.02786795134744935,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.3773330128920653,
+          "pitch": 0.3538989073479559,
+          "rotation": 0.7853981633974483,
+          "target": "16-71-konzentrationskapsel"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "18-73-kommunikationsraum",
+      "name": "7.3 Kommunikationsraum",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.7221769251821568,
+        "pitch": 0.07093660342986752,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.8347465422866094,
+          "pitch": 0.07230784300205784,
+          "rotation": 1.5707963267948966,
+          "target": "19-8-erschlieung"
+        },
+        {
+          "yaw": -2.013312817740651,
+          "pitch": 0.16446723732321544,
+          "rotation": 2.356194490192345,
+          "target": "15-7-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "19-8-erschlieung",
+      "name": "8. Erschließung",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -2.6448607650667064,
+        "pitch": 0.282597871843155,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.984467165623256,
+          "pitch": 0.2760383390771448,
+          "rotation": 4.71238898038469,
+          "target": "20-81-visuelles-lernen"
+        },
+        {
+          "yaw": 0.6148259126683353,
+          "pitch": 0.17840849146813653,
+          "rotation": 0.7853981633974483,
+          "target": "15-7-erschlieung"
+        },
+        {
+          "yaw": 2.1280942137214005,
+          "pitch": -0.011146766586533019,
+          "rotation": 4.71238898038469,
+          "target": "21-9-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20-81-visuelles-lernen",
+      "name": "8.1 Visuelles Lernen",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.58148024582,
+        "pitch": -0.07347005355236291,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.3119898991374246,
+          "pitch": -0.29669286309417586,
+          "rotation": 0.7853981633974483,
+          "target": "19-8-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "21-9-erschlieung",
+      "name": "9. Erschließung",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 0.04735916259099682,
+        "pitch": 0.24251837919679176,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.3873315604455394,
+          "pitch": 0.06694574022685273,
+          "rotation": 5.497787143782138,
+          "target": "23-10-erschlieung"
+        },
+        {
+          "yaw": 0.42848406060454103,
+          "pitch": 0.4866539360939601,
+          "rotation": 0,
+          "target": "22-81-vr-kapsel"
+        },
+        {
+          "yaw": 1.1864210953373249,
+          "pitch": 0.13883660801933217,
+          "rotation": 1.5707963267948966,
+          "target": "19-8-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "22-81-vr-kapsel",
+      "name": "8.1 VR-Kapsel",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.0793045121247822,
+        "pitch": -0.19024683392156128,
+        "fov": 1.3687812585745385
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.729924327716299,
+          "pitch": 0.17580885420837689,
+          "rotation": 0.7853981633974483,
+          "target": "21-9-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-10-erschlieung",
+      "name": "10. Erschließung",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 2.5659237433123927,
+        "pitch": 0.24821075286462957,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.075786010614191,
+          "pitch": 0.07824148213190618,
+          "rotation": 5.497787143782138,
+          "target": "24-11-dachgarten"
+        },
+        {
+          "yaw": 0.4812515703198983,
+          "pitch": 0.17241215298573387,
+          "rotation": 1.5707963267948966,
+          "target": "21-9-erschlieung"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "24-11-dachgarten",
+      "name": "11. Dachgarten",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 2.719406494389993,
+        "pitch": 0.19620024963206895,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6617783541264917,
+          "pitch": -0.35407298148737887,
+          "rotation": 3.141592653589793,
+          "target": "0-1-ansicht"
+        },
+        {
+          "yaw": 1.1583677121045408,
+          "pitch": 0.08102680645505878,
+          "rotation": 0,
+          "target": "23-10-erschlieung"
         }
       ],
       "infoHotspots": []
@@ -1003,7 +1160,7 @@ var APP_DATA = {
   "name": "Twisted Thoughts",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": false,
     "viewControlButtons": true
   }
